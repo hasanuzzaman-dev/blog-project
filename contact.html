@@ -29,7 +29,7 @@
                         <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="about.html">About</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -47,7 +47,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
+                        <a class="nav-link active" href="#">Contact Us</a>
                     </li>
                 </ul>
                 <form class="d-flex">
@@ -59,46 +59,40 @@
     </nav>
 
     <div class="container my-4">
-        <div class="row featurette d-flex justify-content-center align-items-center">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">It all started with iCoder idea. <span class="text-muted">It’ll blow your
-                        mind.</span></h2>
-                <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting
-                    prose here.</p>
+        <h2>Contact Us</h2>
+        <form>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
             </div>
-            <div class="col-md-5">
-                <img class="img-fluid" width="500" height="500" src="https://source.unsplash.com/300x300/?tech,code"
-                    alt="">
+            <select class="form-select mb-3" aria-label="Default select example">
+                <option selected>Select your Query</option>
+                <option value="1">Web</option>
+                <option value="2">Technology</option>
+                <option value="3">Others</option>
+            </select>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Type your Concern</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <div class="form-group row mb-3">
+                <div class="col-sm-2">Are you a member?</div>
+                <div class="col-s -10">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">Yes</label>
+                    </div>
+                </div>
 
             </div>
-        </div>
 
-        <div class="row featurette d-flex justify-content-center align-items-center">
-            <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your
-                        mind.</span></h2>
-                <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting
-                    prose here.</p>
-            </div>
-            <div class="col-md-5 order-md-1">
-                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                    height="500" src="https://source.unsplash.com/300x300/?tech,code,laptop" alt="">
 
-            </div>
-        </div>
-        <div class="row featurette d-flex justify-content-center align-items-center">
-            <div class="col-md-7">
-                <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your
-                        mind.</span></h2>
-                <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting
-                    prose here.</p>
-            </div>
-            <div class="col-md-5">
-                <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-                    height="500" src="https://source.unsplash.com/300x300/?tech,code,code" alt="">
 
-            </div>
-        </div>
+
+            <button class="btn btn-primary">Submit</button>
+        </form>
+
     </div>
 
     <hr class="featurette-divider">
